@@ -1,0 +1,680 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/admin/ontologies/2021/3/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2021/3/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:accidents="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com">
+        <rdfs:comment>This is an ontology about accident issue</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#OftenInvestigates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#OftenInvestigates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasBurnt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasBurnt"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasCaused -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasCaused"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasCausedby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasCausedby"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasConduct -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasConduct"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasConductedby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasConductedby"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasCost -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasCost"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasCover -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasCover"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasDamagedby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasDamagedby"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasHurt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasHurt"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasInjuries -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasInjuries"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasPlugged -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasPlugged"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasReceived -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasReceived"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasSlippedover -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasSlippedover"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasSmashed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasSmashed"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasTurn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasTurn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasVictim -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasVictim"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasWorkin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasWorkin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasdamaged -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasdamaged"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#isInvestigating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#isInvestigating"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ValueCost -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ValueCost"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#is -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#is"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#AccidentPlaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#AccidentPlaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ValueCost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1000</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ValueCost"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10000</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Chemical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Chemical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ChemicalDamage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ChemicalDamage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Complete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Complete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Inprogress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Damage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Damage">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#DamageLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#DamageLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#DamageLevel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#LowUpTo$1000"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Over$10000"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Electrical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Electrical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ElectricalDamage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ElectricalDamage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#FireDamage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#FireDamage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Inprogress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Inprogress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigation">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasConductedby"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigator"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#hasCover"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Kinetic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Kinetic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#KineticDamage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#KineticDamage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Liquid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Liquid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#LiquidDamage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#LiquidDamage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Victim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Victim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Witness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Witness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Aircompressor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Aircompressor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Object"/>
+        <accidents:hasCaused rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#TwoAccidents"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Allyssa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Allyssa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigator"/>
+        <accidents:OftenInvestigates rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ElectricalAccident"/>
+        <accidents:isInvestigating rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#TwoAccidents"/>
+        <accidents:is>Electrician</accidents:is>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Charlie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Charlie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Kinetic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Victim"/>
+        <accidents:hasHurt rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Head"/>
+        <accidents:hasSlippedover rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Laboratory"/>
+        <accidents:hasSmashed rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Sensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ChemicalAccident -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ChemicalAccident">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Chemical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Computer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Computer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Object"/>
+        <accidents:ValueCost>$2000</accidents:ValueCost>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ElectricalAccident -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ElectricalAccident">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Electrical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#FireAccidents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#FireAccidents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Fire"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#George -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#George">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigator"/>
+        <accidents:isInvestigating rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ChemicalAccident"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Head -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Head">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Hubert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Hubert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Kinetic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Victim"/>
+        <accidents:hasReceived rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#MinorShock"/>
+        <accidents:hasTurn rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Aircompressor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#KineticAccidents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#KineticAccidents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Kinetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Laboratory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Laboratory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#AccidentPlaces"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#LiquidAccident -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#LiquidAccident">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Liquid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#MinorShock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#MinorShock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#KineticDamage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#MotorGenerator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#MotorGenerator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Object"/>
+        <accidents:ValueCost>$2000</accidents:ValueCost>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Sam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Sam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Kinetic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Victim"/>
+        <accidents:hasPlugged rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Aircompressor"/>
+        <accidents:hasdamaged rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Computer"/>
+        <accidents:hasdamaged rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Scales"/>
+        <accidents:ValueCost>$2500</accidents:ValueCost>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Scales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Scales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Object"/>
+        <accidents:ValueCost>$500</accidents:ValueCost>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Object"/>
+        <accidents:ValueCost>$800</accidents:ValueCost>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Tom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Tom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Fire"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Victim"/>
+        <accidents:hasBurnt rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#legs"/>
+        <accidents:hasWorkin rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Workshop"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#TwoAccidents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#TwoAccidents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Accidents"/>
+        <accidents:hasCausedby rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Aircompressor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Workshop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Workshop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#AccidentPlaces"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#WorkshopFire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#WorkshopFire">
+        <accidents:hasCaused rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#$15000_damage"/>
+        <accidents:hasdamaged rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#MotorGenerator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Zach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Zach">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigator"/>
+        <accidents:hasConduct rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#WorkshopFire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#legs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#legs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#$15000_damage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#$15000_damage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#LowUpTo$1000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#LowUpTo$1000"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Over$10000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Over$10000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Chemical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Fire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Kinetic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Liquid"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ChemicalDamage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#ElectricalDamage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#FireDamage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#KineticDamage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#LiquidDamage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Investigator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Victim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2021/3/accidents.com#Witness"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
