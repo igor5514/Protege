@@ -1,2 +1,2 @@
 # Protege
-Protege Files
+Just 2 simple protege files
