@@ -1,0 +1,679 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.fire_accident_A1.com#"
+     xml:base="http://www.fire_accident_A1.com"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="http://www.accident_A1.com#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Accidents="http://jcu.edu.au/13892185/Fan_Yiwei/25/04/2021/Accidents.owl#"
+     xmlns:Accidents1="http://jcu.edu.au/jc751152/Fan_Yiwei/18/04/2021/Accidents.owl#"
+     xmlns:Accidents2="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#">
+    <owl:Ontology rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl">
+        <rdfs:comment>Accident ontology for CP2405 Assignment 1 Part 1</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasCausedby -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasCausedby">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasConduct -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasConduct">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasCover -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasCover">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasDamagedby -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasDamagedby">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasPlugged -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasPlugged">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasWorkin -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#hasWorkin">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasBurnt -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasBurnt">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasGot -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasGot">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInvestigation -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInvestigation">
+        <rdfs:domain rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#isConducting -->
+
+    <owl:ObjectProperty rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#isConducting">
+        <rdfs:subPropertyOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInvestigation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged -->
+
+    <owl:DatatypeProperty rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#AccidentTypes -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#AccidentTypes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Chemical"/>
+                    <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Electrical"/>
+                    <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Fire"/>
+                    <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Kinetic"/>
+                    <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Liquid"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Accidents"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInvestigation"/>
+                <owl:someValuesFrom rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Accidents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Accidents -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Accidents">
+        <owl:equivalentClass rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Damage"/>
+        <owl:equivalentClass rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#InjuriesorDamages"/>
+        <rdfs:comment>Anything related to accidents, i.e. types, level, items related to the incident</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#ChemicalDamage -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#ChemicalDamage">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Complete -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Complete">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigation"/>
+        <owl:disjointWith rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#InProgress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Damage -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Damage">
+        <owl:disjointWith rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigation"/>
+        <rdfs:comment>Types of damage</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#ElectricalDamage -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#ElectricalDamage">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#FireDamage -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#FireDamage">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#InProgress -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#InProgress">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#KineticDamage -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#KineticDamage">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Level -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Level">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#LowUpTo$1000"/>
+                    <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Over$10000"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Accidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#LiquidDamage -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#LiquidDamage">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Sam -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Sam">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Victim"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged"/>
+                <owl:someValuesFrom rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Computer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged"/>
+                <owl:someValuesFrom rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Scales"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Allyssa -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Allyssa">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#isConducting"/>
+                <owl:hasValue rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#AirCompressor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Charlie -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Charlie">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Victim"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged"/>
+                <owl:someValuesFrom rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Computer -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Computer">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2000</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#George -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#George">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#isConducting"/>
+                <owl:hasValue rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Laboratory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Hubert -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Hubert">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Victim"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasGot"/>
+                <owl:someValuesFrom rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Shock"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#InjuriesorDamages -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#InjuriesorDamages"/>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigation -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigation">
+        <rdfs:comment>division into relief, already completed or still in progress</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigator -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigator">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Legs -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Legs">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#MotorGenerator -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#MotorGenerator">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2000</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Object -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Object">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Accidents"/>
+        <rdfs:comment>objects and persons associated with this accident</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Person -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Person">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Accidents"/>
+        <rdfs:comment>Separation of affected people</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Scales -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Scales">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">500</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Sensor -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Sensor">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasDamaged"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">800</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Shock -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Shock">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Tom -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Tom">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Victim"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasBurnt"/>
+                <owl:someValuesFrom rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Legs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Victim -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Victim">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#hasInjured"/>
+                <owl:someValuesFrom rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Witness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Witness -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Witness">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Zach -->
+
+    <owl:Class rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Zach">
+        <rdfs:subClassOf rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#isConducting"/>
+                <owl:hasValue rdf:resource="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#WorkshopFire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Hubert -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Hubert"/>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Sensor -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Sensor"/>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#TwoAccidents -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#TwoAccidents"/>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Workshop -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Workshop"/>
+    
+
+
+    <!-- http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#$15000_damage -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#$15000_damage"/>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#AirCompressor -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#AirCompressor"/>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Chemical -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Chemical">
+        <rdf:type rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#AccidentTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Electrical -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Electrical">
+        <rdf:type rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#AccidentTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Fire -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Fire">
+        <rdf:type rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#AccidentTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Kinetic -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Kinetic">
+        <rdf:type rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#AccidentTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Laboratory -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Laboratory"/>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Liquid -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Liquid">
+        <rdf:type rdf:resource="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#AccidentTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#WorkshopFire -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#WorkshopFire">
+        <Accidents2:hasDamaged rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15000</Accidents2:hasDamaged>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#LowUpTo$1000 -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#LowUpTo$1000"/>
+    
+
+
+    <!-- http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Over$10000 -->
+
+    <owl:NamedIndividual rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Over$10000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment>The Beginning of Ontology</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://jcu.edu.au/ID13664804/IgorKenzin/22/04/2021/Accidents.owl#Sam"/>
+            <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Charlie"/>
+            <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Tom"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Allyssa"/>
+            <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#George"/>
+            <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Zach"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Investigator"/>
+            <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Victim"/>
+            <rdf:Description rdf:about="http://jcu.edu.au/jc504171/IgorKenzin/23/04/2021/Accidents.owl#Witness"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
